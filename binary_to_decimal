@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void) 
+{
+  int n,i=1,dig,sum=0,ans;
+  scanf("%d",&n);
+  while(n!=0)
+  {
+    dig=n%10;
+    if(dig==1)
+    {
+      ans=pow(i,dig);
+      sum=ans+sum;
+    }
+    n=n/10;
+    i=i*2;
+}
+  print(sum)
+}
