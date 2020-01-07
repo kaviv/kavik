@@ -1,0 +1,6 @@
+n,k=map(int,input().split())
+N=n-k
+if N%2==0:
+  print("even")
+else:
+  print("odd")
