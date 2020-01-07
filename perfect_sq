@@ -1,0 +1,6 @@
+n = map(int(input().split())
+i = int(math.sqrt(n))
+if(n == i*i):
+  print("yes")
+else:
+  print("No")
